@@ -1,0 +1,17 @@
+public class TPessoa {
+    
+    // Atributos (variaveis da classe)
+       int idade;
+       char sexo;
+       String nome;
+       
+    // Construtor
+       public TPessoa (int i, char s, String n){
+           idade = i;
+           sexo = s;
+           nome = n;
+       }
+    
+    // Métodos
+    
+}
