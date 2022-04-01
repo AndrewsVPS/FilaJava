@@ -1,0 +1,20 @@
+public class Main {
+
+    public static void main (String arg[]) {
+       TPessoa p=new TPessoa (20, 'F', "Tasha");
+       TPessoa q=new TPessoa (10, 'M', "Matui");
+       TPessoa u=new TPessoa (30, 'M', "Amaral");
+       TPessoa x=new TPessoa (40, 'M', "Zé Estrofe");
+       TADFila f = new TADFila (100);
+       
+       f.enfileira (p);
+       f.enfileira (q);
+       f.enfileira (u);
+       f.enfileira (x);
+       f.desenfileira ();
+
+       f.imprime();
+        
+        
+    }
+}
